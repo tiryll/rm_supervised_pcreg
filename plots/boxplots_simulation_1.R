@@ -1,7 +1,7 @@
 
 rm(list=ls())
 
-source(paste(getwd(),"/src/environment.R",sep=""))
+source(paste(getwd(),"/environment.R",sep=""))
 
 data_MSE <- read.table(file=paste(data_dir,"/sim1_MSE_data.txt",sep=""))
 data_coeff <- read_rds(file=paste(data_dir,"/sim1_coeff_data.rds",sep=""))

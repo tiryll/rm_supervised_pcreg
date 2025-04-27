@@ -1,10 +1,10 @@
 
 rm(list=ls())
 
-source(paste(getwd(),"/src/environment.R",sep=""))
-source(paste(getwd(),"/src/functions_pcr.R",sep=""))
-source(paste(getwd(),"/src/MC_simulation_functions.R",sep=""))
-source(paste(getwd(),"/src/functions_pls.R",sep=""))
+source(paste(getwd(),"/environment.R",sep=""))
+source(paste(getwd(),"/functions/functions_pcr.R",sep=""))
+source(paste(getwd(),"/functions/MC_simulation_functions.R",sep=""))
+source(paste(getwd(),"/functions/functions_pls.R",sep=""))
 
 ############################
 # Simulation 1

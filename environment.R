@@ -17,8 +17,8 @@ library(readr)
 
 # paths
 
-data_dir <- paste(getwd(),"/bld/data",sep="")
+data_dir <- paste(getwd(),"/output/data",sep="")
 
-tables_dir <- paste(getwd(),"/bld/tables",sep="")
+tables_dir <- paste(getwd(),"/output/tables",sep="")
 
-figures_dir <- paste(getwd(),"/bld/figures",sep="")
+figures_dir <- paste(getwd(),"/output/figures",sep="")

@@ -1,8 +1,8 @@
 
 rm(list=ls())
 
-source(paste(getwd(),"/src/environment.R",sep=""))
-source(paste(getwd(),"/src/MC_simulation_functions.R",sep=""))
+source(paste(getwd(),"/environment.R",sep=""))
+source(paste(getwd(),"/functions/MC_simulation_functions.R",sep=""))
 
 #options(tz="CA")
 
