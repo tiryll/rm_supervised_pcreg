@@ -3,12 +3,11 @@
 
 ## i) General Information
 
+This project, developed by [Fabian Schmidt](https://github.com/schmidtfabian) and myself, was created for the Research Module in Econometrics & Statistics at the University of Bonn. Our objective is to evaluate analytically and through simulations the performance of the supervised principal components (SPC) method introduced by [Bair et. al (2006)](https://www.tandfonline.com/doi/abs/10.1198/016214505000000628) for prediction with high-dimensional data.
 
-This project by [Fabian Schmidt](https://github.com/schmidtfabian) and me has been developed for the *Research Module in Econometrics & Statistics* at the University of Bonn. The goal of this work is to replicate the results of [Bair et. al (2006)](https://www.tandfonline.com/doi/abs/10.1198/016214505000000628), who propose the *supervised principal components*-method for prediction with high dimensional data, and evaluate its performance when compare to popular alternative methods.
+Through our simulations, we demonstrate that while the SPC method can outperform popular alternative techniques such as Principal Component Regression (PCR) and Partial Least Squares (PLS) in terms of achieving a lower test mean squared predition error (Test-MSPE), its performance deteriorates once certain technical assumptions are violated.
 
-In our simulations we show that, while the method can outperform alternative methods such as principal component regression (pcr) or partial least squares (pls) in terms of a lower Test-MSE, it performs worse than pcr and pls once certain technical assumptions are violated. 
-
-Below you can find an overview of the repository structure.
+Below, you'll find an overview of the repository structure.
 
 ---------------------
 ## ii) Overview
